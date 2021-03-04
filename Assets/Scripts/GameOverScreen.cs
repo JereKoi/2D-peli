@@ -10,7 +10,7 @@ public class GameOverScreen : MonoBehaviour
     public void Setup(int slainscore)
     {
         gameObject.SetActive(true);
-        demonsslain.text = slainscore.ToString() + " Slain Demons: ";
+        demonsslain.text = slainscore.ToString() + " ";
     }
 
     public void RestartButton()

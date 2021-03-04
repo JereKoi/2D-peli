@@ -34,8 +34,6 @@ using UnityEngine.UI;
 
 public class GameManagerBehavior : MonoBehaviour
 {
-    public GameOverScreen GameOverScreen;
-    public GameWonScreen GameWonScreen;
     public Text goldLabel;
     private int gold;
     public int Gold
@@ -47,7 +45,7 @@ public class GameManagerBehavior : MonoBehaviour
         set
         {
             gold = value;
-            goldLabel.GetComponent<Text>().text = "GOLD: " + gold;
+            goldLabel.GetComponent<Text>().text = "Volcanic Credits: " + gold;
         }
     }
 
@@ -76,7 +74,6 @@ public class GameManagerBehavior : MonoBehaviour
 
     public Text healthLabel;
     public GameObject[] healthIndicator;
-    int slainscore = 0;
 
     private int health;
     public int Health
@@ -94,10 +91,11 @@ public class GameManagerBehavior : MonoBehaviour
             healthLabel.text = "HEALTH: " + health;
             // 2
             if (health <= 0 && !gameOver)
-                
+
             {
                 gameOver = true;
-                GameOverScreen.Setup(slainscore);
+                GameObject gameOverText = GameObject.FindGameObjectWithTag("GameOver");
+                gameOverText.GetComponent<Animator>().SetBool("gameOver", true);
             }
             // 3 
             for (int i = 0; i < healthIndicator.Length; i++)

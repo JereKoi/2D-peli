@@ -30,6 +30,7 @@
 
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class Wave
@@ -98,6 +99,7 @@ public class SpawnEnemy : MonoBehaviour
             //enemiesSpawned = 0;
             GameObject gameOverText = GameObject.FindGameObjectWithTag("GameWon");
             gameOverText.GetComponent<Animator>().SetBool("gameOver", true);
+            SceneManager.LoadScene("GameWonScene");
         }
     }
 

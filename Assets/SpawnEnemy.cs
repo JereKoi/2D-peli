@@ -65,6 +65,7 @@ public class SpawnEnemy : MonoBehaviour
     void Update()
     {
         // 1
+        
         int currentWave = gameManager.Wave;
         if (currentWave < waves.Length)
         {
@@ -91,16 +92,15 @@ public class SpawnEnemy : MonoBehaviour
                 enemiesSpawned = 0;
                 lastSpawnTime = Time.time;
             }
+
             // 5 
         }
         else
         {
             gameManager.gameOver = true;
-            //enemiesSpawned = 0;
             GameObject gameOverText = GameObject.FindGameObjectWithTag("GameWon");
             gameOverText.GetComponent<Animator>().SetBool("gameOver", true);
             SceneManager.LoadScene("GameWonScene");
         }
     }
-
 }

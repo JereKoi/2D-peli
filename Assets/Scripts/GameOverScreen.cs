@@ -23,4 +23,8 @@ public class GameOverScreen : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void NextLevel()
+    {
+        SceneManager.LoadScene("GameScene2");
+    }
 }

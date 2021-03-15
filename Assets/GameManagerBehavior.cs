@@ -31,10 +31,10 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManagerBehavior : MonoBehaviour
 {
-
     public Text goldLabel;
     private int gold;
     public int Gold
@@ -46,7 +46,7 @@ public class GameManagerBehavior : MonoBehaviour
         set
         {
             gold = value;
-            goldLabel.GetComponent<Text>().text = "GOLD: " + gold;
+            goldLabel.GetComponent<Text>().text = "Volcanic Credits: " + gold;
         }
     }
 
@@ -92,10 +92,12 @@ public class GameManagerBehavior : MonoBehaviour
             healthLabel.text = "HEALTH: " + health;
             // 2
             if (health <= 0 && !gameOver)
+
             {
                 gameOver = true;
                 GameObject gameOverText = GameObject.FindGameObjectWithTag("GameOver");
                 gameOverText.GetComponent<Animator>().SetBool("gameOver", true);
+                SceneManager.LoadScene("GameOverScene");
             }
             // 3 
             for (int i = 0; i < healthIndicator.Length; i++)

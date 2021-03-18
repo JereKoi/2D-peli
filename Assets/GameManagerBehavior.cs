@@ -73,6 +73,7 @@ public class GameManagerBehavior : MonoBehaviour
         }
     }
 
+
     public Text healthLabel;
     public GameObject[] healthIndicator;
 
@@ -105,6 +106,7 @@ public class GameManagerBehavior : MonoBehaviour
                 if (i < Health)
                 {
                     healthIndicator[i].SetActive(true);
+
                 }
                 else
                 {

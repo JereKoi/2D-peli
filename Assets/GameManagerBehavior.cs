@@ -46,7 +46,7 @@ public class GameManagerBehavior : MonoBehaviour
         set
         {
             gold = value;
-            goldLabel.GetComponent<Text>().text = "Volcanic Credits: " + gold;
+            goldLabel.GetComponent<Text>().text = "GOLD: " + gold;
         }
     }
 

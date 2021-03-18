@@ -75,8 +75,8 @@ public class BulletBehavior : MonoBehaviour
                 if (healthBar.currentHealth <= 0)
                 {
                     Destroy(target);
-                    AudioSource audioSource = target.GetComponent<AudioSource>();
-                    AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
+                    //AudioSource audioSource = target.GetComponent<AudioSource>();
+                    //AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
 
                     gameManager.Gold += 50;
                 }

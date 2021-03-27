@@ -1,0 +1,20 @@
+Riku Lind itsearviointi
+
+Projektin eteneminen lyhyesti:
+
+2D-pelimme suunnittelu ja toteutus lähti aika nopeasti käyntiin, koska olimme kaikki avoimia tower defense-malliselle pelille. Ideointi oli melko helppoa, kaikilla oli aina jotain parannuksia ja uusia juttuja 
+mielessä. Vaikeinta oli varmaankin se itse toteutus eli sen pelin ohjelmointi yms. , ainakin omasta mielestäni koska olen niin uusi opiskelija että oli vielä erittäin vaikeaa tavallaan tehdä mitään kunnolla.
+Joitain juttuja emme saaneet tehtyä peliin, kuten esim. abilityja, koska emme löytäneet kunnollista ohjetta sen tekemiseen tower defense-peliin. Päätimme sitten että sitä ei nyt tällä kertaa tule, vaikka
+se olisi ollut aika tärkeä osa. Saimme kuitenkin rahasysteemin, vihollisten liikkumisen, healthin, suurin piirtein kaiken tärkeimmän tehtyä peliin määrätyssä ajassa, joten itse olen aika tyytyväinen.
+
+Ryhmän arviointi: 
+
+Antaisin Teemulle ja Jerelle arvosanaksi 4-5, he tekivät eniten töitä tässä projektissa ja auttoivat sitten myös minua ja muita tekemään mitä ikinä sitten teinkään. He olivat joka kerta paikalla tekemässä peliä.
+
+Tommille antaisin arvosanaksi 3, teki main menun, hoiti pelin artworkin tekijän kanssa yhteistyön ja tarina on suurimmaksi osaksi hänen ideointiaan, ei ehkä ollut niin monesti Discordissa paikalla meidän kanssa.
+
+Itselleni ja Erkalle antaisin 2, Erkka oli myös hieman vähemmän Discordissa mukana tekemässä asioita meidän kanssa, oli kuitenkin välillä. Itse olin muutamaa kertaa lukuunottamatta aina Discordissa valmiina 
+auttamaan, mutta en tehnyt niinkään paljon, etsin sitä tietoa enemmän kuin tein. Esimerkiksi yritin Teemun kanssa etsiä sitä abilityjen lisäämistä peliin, jota ei sitten löytynyt kuitenkaan, ja yleensä kun jollain oli joku
+ongelma, pyrin auttamaan sen ratkaisemisessa. Syy miksi en tehnyt niin paljoa oli se, että en yksinkertaisesti osannut, kun olen aloittanut niin vasta että olen vielä menossa ohjelmoinnin perusteissa. 
+
+Itselläni parannettavaa on kyllä vielä ihan kaikessa, ehkä tämän projektiopinnot 1 kurssin pelin tekeminen sujuu helpommin nyt kun on nähnyt vähän miten sitä tehdään.

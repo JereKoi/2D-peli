@@ -1,0 +1,14 @@
+kuvaus suunnitellusta projektista
+- Peli oli tower defence peli jossa taistellaan demoneja puolustavilla ritareilla. Pelissä oli kaksi tasoa ja kummallakin tasolla vihollisten määrä ja nopeus vaihteli.
+
+tarkennus mihin asti päästiin
+- Päästiin siihen asti, että pelissä oli kaksi kenttää ja peliä pystyi pelaamaan täysmittaisesti. Pelissä jäi ability elementti kesken ja cutscenet.
+
+arvosana itsellesi ja tiimiläisellesi ja perustelut
+- Itselle antaisin numeron 5. Olin mielestäni hyvin tiimityöskentelyssä mukana ja
+tein työt joita minulle annettiin sekä koodi että grafiikka puolella. 
+
+Riku Lind - 3 Riku auttoi projektia ohjelmoinnin puolella ja neuvoi tarvittaessa.
+Teemu Aittola - 4 Teemu teki peliin monia featureja, jotkut toimivat ja jotkut ei niinkään, mutta yritys oli hyvä ja tekeminen näkyi.
+Tommi Heikkinen - 3 Tommin painopiste projektissa oli main menu sekä cutscenet ja tarina. Mielestäni tommi teki hyvää työtä näissä.
+Erkka Majasaari - 3 Erkka antoi työtä parantavaa palautetta. Hän myös teki grafiikkaa peliin.
